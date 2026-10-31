@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Продажа автомобилей — Главная</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-container">
+            
+            <div class="logo">
+                <h1>AutoDrive</h1> 
+            </div>
+            
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Главная</a></li>
+                    <li><a href="catalog.html">Каталог авто</a></li>
+                    <li><a href="services.html">Услуги</a></li>
+                    <li><a href="about.html">О компании</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Найдите автомобиль своей мечты</h2>
+            <p>Более 1000 проверенных автомобилей с гарантией.</p>
+        </section>
+    </main>
+
+    <img src="https://domcar.com.cy/upload/live/1670752432_3702.jpeg" alt="машина">
+    <img src="https://domcar.com.cy/upload/live/1670752432_2901.jpeg" alt="машина">
+    <img src="https://domcar.com.cy/upload/live/1670752432_3289.jpeg" alt="машина">
+    <img src="https://domcar.com.cy/upload/live/1670752432_4228.jpeg" alt="машина">
+    <img src="https://cdn.mc.today/uploads/2022/02/image6.jpg" alt="машина">
+
+    <section class="brand-search">
+    <h2>Поиск объявлений по брендам</h2>
+    
+    <div class="brand-grid">
+        <a href="catalog.html?brand=toyota" class="brand-item">Toyota</a>
+        <a href="catalog.html?brand=bmw" class="brand-item">BMW</a>
+        <a href="catalog.html?brand=mercedes" class="brand-item">Mercedes-Benz</a>
+        <a href="catalog.html?brand=audi" class="brand-item">Audi</a>
+
+        <a href="catalog.html?brand=hyundai" class="brand-item">Hyundai</a>
+        <a href="catalog.html?brand=kia" class="brand-item">KIA</a>
+        <a href="catalog.html?brand=volkswagen" class="brand-item">Volkswagen</a>
+        <a href="catalog.html?brand=ford" class="brand-item">Ford</a>
+
+        <a href="catalog.html?brand=nissan" class="brand-item">Nissan</a>
+        <a href="catalog.html?brand=honda" class="brand-item">Honda</a>
+        <a href="catalog.html?brand=lexus" class="brand-item">Lexus</a>
+        <a href="catalog.html?brand=porsche" class="brand-item">Porsche</a>
+
+        <a href="catalog.html?brand=chevrolet" class="brand-item">Chevrolet</a>
+        <a href="catalog.html?brand=tesla" class="brand-item">Tesla</a>
+        <a href="catalog.html?brand=subaru" class="brand-item">Subaru</a>
+        <a href="catalog.html?brand=mazda" class="brand-item">Mazda</a>
+    </div>
+</section>
+
+<aside class="sidebar-cards">
+    <div class="info-card check-car-card">
+        <div class="card-icon">🔍</div>
+        <h3>Проверь авто перед покупкой</h3>
+        <p>Узнайте реальный пробег, историю ДТП и залоги по VIN или госномеру.</p>
+        
+        <div class="check-form">
+            <input type="text" id="vin-input" placeholder="Введите VIN или госномер" autocomplete="off">
+            <button id="check-btn" class="card-btn">Проверить историю</button>
+        </div>
+        
+        <div id="check-result" class="check-result"></div>
+    </div>
+</aside>
+
+
+</body>
+</html>
